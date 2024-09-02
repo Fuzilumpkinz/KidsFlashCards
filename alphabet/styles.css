@@ -1,0 +1,130 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: green;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+div {
+    color: rgb(1, 1, 1);
+}
+.title {
+    text-align: center;
+    font-size:48px;
+    width: 100%;
+    background: rgba(255, 255, 255, 60%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8);
+    margin-top: 1rem;
+    padding-top: .2em;
+    padding-bottom: .2em;
+}
+
+.word {
+    text-align: center;
+    font-size: 24px;
+    width: auto;
+}
+
+.displayWord {
+    text-align: center;
+    font-size: 42px;
+    width: auto;
+    font-weight: 900;
+    text-shadow: 1px 1px #000000;
+}
+
+.buttonBox {
+    text-align: center;
+    width: auto;
+}
+
+.button {
+    background-color: #2196F3;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    border: rgba(255, 255, 255, 0);
+    border-style: solid;
+    border-width: 2px;
+}
+.linkbutton {
+    background-color: #f32121;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    border: rgba(255, 255, 255, 0);
+    border-style: solid;
+    border-width: 2px;
+}
+.alphabetbutton {
+    background-color: #f32121;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    border: rgba(255, 255, 255, 0);
+    border-style: solid;
+    border-width: 2px;
+}
+.button:hover {
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+}
+.linkbutton:hover {
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+}
+.container {
+    height: 85%;
+    width: auto;
+    background: rgba(255, 255, 255, 60%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8);
+    padding: 1em;
+}
+
+.settings {
+    text-align: center;
+}
+
+ .popUp {
+    display: none;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 90%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8);
+    padding: 1em;
+ }
+ .alphabetPopUp {
+    display: none;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 90%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8);
+    padding: 1em;
+ }

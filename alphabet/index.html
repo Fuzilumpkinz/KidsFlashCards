@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rainbow Words</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        <div class="title">Alphabet Flash Cards</div>
+        <br>
+        <div class="container">
+            <center><a href="../index.html"><button class="button">Home</button></a></center>
+            <br>
+            <div class="displayWord" id="updateWord">Click for first word</div>
+            <br>
+            <div class="buttonBox">
+                <button class="button" onclick="updateWord()">Next Number</button>
+                <button class="button" onclick="randomWord()">Random Number</button>
+            </div>
+            <center><button class="button" onclick="alphabetPopUp()">List Contents</button></center>
+        </div>
+
+        </div>
+        <div class="alphabetPopUp"><p class="word">Letters in this list:</p>
+            A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
+        <center><button class="button" onclick="alphabetPopUpClose()">Close</button></center>
+        </div>
+        <script src="scripts.js" defer></script>
+    </body>
+</html>

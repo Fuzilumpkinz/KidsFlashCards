@@ -1,12 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    This is a test!
-    <a href="/rainbowwords/index.html">Rainbow Words</a>
-</body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rainbow Words</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        <div class="title">Kids Flash Cards</div>
+        <br>
+        <div class="container">
+            <center><a href="rainbowwords/index.html"><button class="linkbutton">Rainbow Words</button></a>
+            <button class="button" onclick="popUp()">List Contents</button></center>
+            
+            
+            <center><a href="numbers/index.html"><button class="linkbutton">Basic Numbers</button></a>
+                <button class="button" onclick="numberPopUp()">List Contents</button></center>
+
+            <center><a href="alphabet/index.html"><button class="alphabetbutton">Alphabet</button></a>
+                <button class="button" onclick="alphabetPopUp()">List Contents</button></center>
+            
+            
+        </div>
+    
+        <div class="popUp"><p class="word">Words in this list:</p>
+            Red Words: the, a, see, I, to ,by, my, am, at, go<br>
+            Orange Words: man, no, is, can, and, you, an, it, has, ran<br>
+            Yellow Words: he, she, did, in, put, sits, me, with, big, good<br>
+            Green Words: his, very, got, on, here, of, lot, not, are was<br>
+            Blue Words: had, be, do, ten, but, up, look, want, him, us<br>
+            Violet Words: for, her, yes, help, too, they, six, have, some, we<br>
+            Pink Words: get, hot, or, where, if, stop, come, from, red, as<br>
+            Gray Words: that, our, cut, must, said, when, off, will, down, so<br>
+            Peach Words: back, let, were, what, then, this, could, now, tell, well<br>
+            Lime Words: your, who, same, take, know, out, home, like, many, right<br>    
+            <center><button class="button" onclick="popUpClose()">Close</button></center>    
+        </div>
+        <div class="numberPopUp"><p class="word">Numbers in this list:</p>
+            1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+        <center><button class="button" onclick="numberPopUpClose()">Close</button></center>
+        </div>
+        
+        <div class="alphabetPopUp"><p class="word">Letters in this list:</p>
+            A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
+        <center><button class="button" onclick="alphabetPopUpClose()">Close</button></center>
+        </div>
+
+        <script src="scripts.js" defer></script>
+    </body>
 </html>
